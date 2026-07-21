@@ -1,0 +1,7 @@
+# Datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Datos procesados generados localmente
+data/processed/*
+!data/processed/.gitkeep
