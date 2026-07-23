@@ -134,7 +134,7 @@ Antes de ajustar PCA, el notebook verifica:
 - que `pl_name` no tiene duplicados;
 - que no hay variables constantes.
 
-Después comprueba que los scores no tienen nulos, que las dimensiones son coherentes y que la varianza retenida alcanza el umbral. Con los datos actuales procesa 733 observaciones, 12 variables y 4 componentes; el error medio de reconstrucción es 0,066834.
+Después comprueba que los scores no tienen nulos, que las dimensiones son coherentes y que la varianza retenida alcanza el umbral. Con los datos actuales procesa 731 observaciones, 12 variables y 4 componentes; el error medio de reconstrucción es 0,066834.
 
 ## 8. Artefactos exportados
 
@@ -163,7 +163,7 @@ La compañera de K-Means debe usar las cuatro columnas PC1-PC4 de `pca_scores.cs
 ## 11. Orden de ejecución
 
 1. Ejecutar `03_preprocessing.ipynb` completo.
-2. Comprobar que existe `exoplanets_preprocessed.csv` con 733 filas y 12 variables.
+2. Comprobar que existe `exoplanets_preprocessed.csv` con 731 filas y 12 variables.
 3. Ejecutar `04_pca_and_cluster_profiling.ipynb` completo.
 4. Revisar la tabla de varianza y los loadings.
 5. Entregar `pca_scores.csv` y el resto de artefactos a la responsable de K-Means.

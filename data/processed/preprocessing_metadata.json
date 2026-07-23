@@ -1,0 +1,65 @@
+{
+  "source": "NASA Exoplanet Archive - Planetary Systems (PS)",
+  "source_url": "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS&constraint=default_flag=1&constraint=disc_facility+like+%27%25TESS%25%27",
+  "input_path": "data\\raw\\exoplanets.csv",
+  "output_path": "data\\processed\\exoplanets_preprocessed.csv",
+  "id_column": "pl_name",
+  "planet_features": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_orbeccen",
+    "pl_insol",
+    "pl_eqt"
+  ],
+  "stellar_features": [
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "feature_columns": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_orbeccen",
+    "pl_insol",
+    "pl_eqt",
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "log1p_features": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_insol",
+    "st_rad"
+  ],
+  "linear_features": [
+    "pl_orbeccen",
+    "pl_eqt",
+    "st_teff",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "minimum_present_features": 8,
+  "scaler": "robust",
+  "imputer": {
+    "name": "KNNImputer",
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "outlier_policy": "preserve; audit with IQR; mitigate with log1p and robust scaling",
+  "rows_raw": 910,
+  "rows_retained": 731,
+  "rows_excluded": 179,
+  "exported_at_utc": "2026-07-23T21:06:24.801482+00:00"
+}
