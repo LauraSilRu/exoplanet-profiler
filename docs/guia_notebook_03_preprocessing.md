@@ -147,7 +147,7 @@ El notebook PCA carga directamente `exoplanets_preprocessed.csv`, valida las 12 
 
 Para datos nuevos se debe cargar `preprocessing_pipeline.joblib`; no se deben recalcular transformaciones, vecinos o escalas con una sola observación.
 
-## 10. resumen de decisiones
+## 10. Resumen de decisiones
 
 > Conservamos las 12 variables candidatas seleccionadas en el EDA. Para no imputar perfiles casi vacíos exigimos al menos 8 mediciones por planeta, lo que conserva 733 objetos. Aplicamos log1p a las variables positivas más sesgadas, RobustScaler para limitar la influencia de extremos y KNN con cinco vecinos. KNN se eligió porque reconstruyó mejor valores ocultados que la mediana. No borramos outliers físicos y documentamos como limitaciones la alta imputación de insolación y el sesgo de completitud de 2026.
 
