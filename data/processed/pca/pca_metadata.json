@@ -1,6 +1,7 @@
 {
-  "source_mode": "DATOS REALES PREPROCESADOS",
-  "input_path": "D:\\HELEN\\PERSONAL\\FORMACIÓN\\++ia_formacion\\BOOTCAMP - F5\\CURSO\\PROYECTO_3.2\\exoplanet-profiler\\data\\processed\\exoplanets_preprocessed.csv",
+  "source_mode": "DATOS REALES PREPROCESADOS HASTA 2025",
+  "input_path": "C:\\PROYECTOS_ELE\\BOOTCAMP_MODULO3\\proyecto2_modulo3\\exoplanet-profiler\\data\\processed\\exoplanets_preprocessed.csv",
+  "preprocessing_metadata_path": "C:\\PROYECTOS_ELE\\BOOTCAMP_MODULO3\\proyecto2_modulo3\\exoplanet-profiler\\data\\processed\\preprocessing_metadata.json",
   "id_column": "pl_name",
   "feature_columns": [
     "pl_orbper",
@@ -17,8 +18,10 @@
     "st_logg"
   ],
   "data_already_scaled": true,
+  "max_discovery_year": 2025,
+  "input_rows": 675,
   "variance_threshold": 0.85,
   "n_components": 4,
-  "retained_variance": 0.90391113362679,
+  "retained_variance": 0.9019988489325845,
   "random_state": 42
 }

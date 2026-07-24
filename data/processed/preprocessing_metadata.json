@@ -4,6 +4,9 @@
   "input_path": "data\\raw\\exoplanets.csv",
   "output_path": "data\\processed\\exoplanets_preprocessed.csv",
   "id_column": "pl_name",
+  "year_column": "disc_year",
+  "max_discovery_year": 2025,
+  "temporal_filter_rule": "disc_year <= 2025",
   "planet_features": [
     "pl_orbper",
     "pl_orbsmax",
@@ -59,7 +62,10 @@
   },
   "outlier_policy": "preserve; audit with IQR; mitigate with log1p and robust scaling",
   "rows_raw": 910,
-  "rows_retained": 731,
-  "rows_excluded": 179,
-  "exported_at_utc": "2026-07-23T21:06:24.801482+00:00"
+  "rows_excluded_2026": 171,
+  "rows_eligible_through_2025": 739,
+  "rows_excluded_completeness_through_2025": 64,
+  "rows_retained": 675,
+  "rows_excluded_total": 235,
+  "exported_at_utc": "2026-07-24T13:36:28.913564+00:00"
 }
