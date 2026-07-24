@@ -1,0 +1,24 @@
+{
+  "source_mode": "DATOS REALES PREPROCESADOS",
+  "input_path": "D:\\HELEN\\PERSONAL\\FORMACIÓN\\++ia_formacion\\BOOTCAMP - F5\\CURSO\\PROYECTO_3.2\\exoplanet-profiler\\data\\processed\\exoplanets_preprocessed.csv",
+  "id_column": "pl_name",
+  "feature_columns": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_orbeccen",
+    "pl_insol",
+    "pl_eqt",
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "data_already_scaled": true,
+  "variance_threshold": 0.85,
+  "n_components": 4,
+  "retained_variance": 0.90391113362679,
+  "random_state": 42
+}
