@@ -182,3 +182,45 @@ Actualmente el proyecto se encuentra en la fase inicial de comprensión y explor
 📄 Licencia
 
 Este proyecto ha sido desarrollado con fines educativos y académicos.
+
+## ▶️ Cómo ejecutar el dashboard para tu equipo
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/LauraSilRu/exoplanet-profiler.git
+cd exoplanet-profiler
+```
+
+### 2. Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Ejecutar la app Streamlit
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+La aplicación quedará disponible en la URL que muestre Streamlit, normalmente:
+
+```text
+http://localhost:8501
+```
+
+### 4. Compartir el proyecto con el equipo
+
+Puedes compartir el repositorio por GitHub y pedir a tus compañeros que hagan:
+
+```bash
+git pull
+streamlit run app/streamlit_app.py
+```
+
+Si quieren trabajar sobre la misma rama, también pueden crear su propia rama:
+
+```bash
+git checkout -b nombre-de-tu-rama
+```
