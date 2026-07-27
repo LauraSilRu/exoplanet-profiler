@@ -1,0 +1,26 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "ExoPlanet Profiler",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1E40AF"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentación",
+        "groups": [
+          {
+            "group": "Introducción",
+            "pages": [
+              "index"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
