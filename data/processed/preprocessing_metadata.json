@@ -1,0 +1,71 @@
+{
+  "source": "NASA Exoplanet Archive - Planetary Systems (PS)",
+  "source_url": "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS&constraint=default_flag=1&constraint=disc_facility+like+%27%25TESS%25%27",
+  "input_path": "data\\raw\\exoplanets.csv",
+  "output_path": "data\\processed\\exoplanets_preprocessed.csv",
+  "id_column": "pl_name",
+  "year_column": "disc_year",
+  "max_discovery_year": 2025,
+  "temporal_filter_rule": "disc_year <= 2025",
+  "planet_features": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_orbeccen",
+    "pl_insol",
+    "pl_eqt"
+  ],
+  "stellar_features": [
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "feature_columns": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_orbeccen",
+    "pl_insol",
+    "pl_eqt",
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "log1p_features": [
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_insol",
+    "st_rad"
+  ],
+  "linear_features": [
+    "pl_orbeccen",
+    "pl_eqt",
+    "st_teff",
+    "st_mass",
+    "st_met",
+    "st_logg"
+  ],
+  "minimum_present_features": 8,
+  "scaler": "robust",
+  "imputer": {
+    "name": "KNNImputer",
+    "n_neighbors": 5,
+    "weights": "distance"
+  },
+  "outlier_policy": "preserve; audit with IQR; mitigate with log1p and robust scaling",
+  "rows_raw": 910,
+  "rows_excluded_2026": 171,
+  "rows_eligible_through_2025": 739,
+  "rows_excluded_completeness_through_2025": 64,
+  "rows_retained": 675,
+  "rows_excluded_total": 235,
+  "exported_at_utc": "2026-07-24T13:36:28.913564+00:00"
+}
