@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white" alt="Jupyter"/>
   <img src="https://img.shields.io/badge/Datos-NASA%20Exoplanet%20Archive-0B3D91?logo=nasa&logoColor=white" alt="NASA"/>
-  <img src="https://img.shields.io/badge/Estado-Completado-66BB6A" alt="Estado"/>
+  <img src="https://img.shields.io/badge/Estado-Completado-66BB6A" alt="Estado v1"/>
 </p>
 
 ---
