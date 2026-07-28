@@ -9,7 +9,11 @@
 
 <p align="center">
   <a href="https://exoplanet-profiler-bxyp4rgd7z5paacsctdfdt.streamlit.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🚀_App_Interactiva-Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit App"/>
+    <img src="https://img.shields.io/badge/🚀_App_Interactiva-Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Ver Streamlit App"/>
+  </a>
+  &nbsp;
+  <a href="docs/Presentation.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📊_Presentación-Ver_PDF-B31B1B?logo=adobeacrobatreader&logoColor=white" alt="Presentación PDF"/>
   </a>
 </p>
 <p align="center">
@@ -18,7 +22,7 @@
   <img src="https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas&logoColor=white" alt="Pandas"/>
   <img src="https://img.shields.io/badge/Jupyter-Notebooks-F37626?logo=jupyter&logoColor=white" alt="Jupyter"/>
   <img src="https://img.shields.io/badge/Datos-NASA%20Exoplanet%20Archive-0B3D91?logo=nasa&logoColor=white" alt="NASA"/>
-  <img src="https://img.shields.io/badge/Estado-Completado-66BB6A" alt="Estado"/>
+  <img src="https://img.shields.io/badge/Estado-Completado-V1-66BB6A" alt="Estado"/>
 </p>
 
 ---
