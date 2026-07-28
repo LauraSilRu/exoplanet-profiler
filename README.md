@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://exoplanet-profiler-pqptbkyckactbdvia92egg.streamlit.app/Perfil_de_Exoplaneta" target="_blank">
+  <a href="https://exoplanet-profiler-bxyp4rgd7z5paacsctdfdt.streamlit.app/" target="_blank">
     <img src="https://img.shields.io/badge/🚀_App_Interactiva-Streamlit-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit App"/>
   </a>
 </p>
@@ -36,7 +36,7 @@ La exploración espacial genera enormes cantidades de datos sobre planetas situa
 
 ## 🚀 App Interactiva
 Explora los resultados del modelo y analiza el perfil de diferentes exoplanetas directamente en nuestra aplicación en la nube:
-👉 **[Abrir ExoProfiler en Streamlit](https://exoplanet-profiler-pqptbkyckactbdvia92egg.streamlit.app/Perfil_de_Exoplaneta)**
+👉 **[Abrir ExoProfiler en Streamlit](https://exoplanet-profiler-bxyp4rgd7z5paacsctdfdt.streamlit.app/)**
 
 ---
 
